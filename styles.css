@@ -1,0 +1,84 @@
+body{
+    background-color: #f3eae3;
+    transform: scale(0.6); /* Установите желаемое значение масштаба, например, 0.8 для уменьшения на 20% */
+    transform-origin: center;
+    
+}
+.container {
+    background-color: white;
+    border-radius:25px;
+    border: 0px;
+}
+#col-left
+{
+   display: flex;
+   align-items: center;
+    
+}
+#col-right
+{
+    width: 200px;
+    
+}
+#product {
+    border-radius:25px 0px 0px 25px; 
+    width: auto;
+
+}
+
+.info-container
+{
+    padding-top: 30%;
+    padding-left: 10%;
+   
+      
+}
+
+.container h2
+{
+    letter-spacing: 6px;
+    font-size: 20px;
+    color: #7f7e86;
+    padding-bottom: 5%;
+}
+.container h1
+{
+    font-family: Georgia;
+     font-weight: bold;
+     font-size: 55px;
+}
+p
+{
+    color:#9c9b9f;
+    font-size: 22px;
+}
+.btn-success
+{
+margin-top: 10% !important;  
+width: 75%;
+height: 75px;
+background-color: #3d8168 !important;
+border-radius: 15px !important;
+font-size: 30px !important;
+font-weight: bold !important;
+}
+
+.btn-success:hover{
+    background-color: #1a4031 !important;
+}
+#price{
+    color: #3e7f67;
+     font-size: 50px;
+     font-family: cursive; 
+     font-weight: bolder; 
+     display: flex; 
+}
+#old-price
+{
+   text-decoration: line-through;
+    font-size: 20px; 
+    font-family: sans-serif;
+     display: flex; 
+     justify-content: left; 
+     align-items: center;
+}
